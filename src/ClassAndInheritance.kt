@@ -1,7 +1,3 @@
-import java.util.logging.Logger
-import javax.swing.text.View
-import kotlin.math.log
-
 //클래스와 상속
 fun main() {
 //    val obj = Person("kotlin")
@@ -19,12 +15,12 @@ class Person constructor(firstName: String) {
 
     //보조생성자
     //직접적
-    constructor(name: String, parent: Person) : this(name) {
+    constructor(name: String, parent: DataClass) : this(name) {
 
     }
 
     //간접적
-    constructor() : this("홍길동", Person()) {
+    constructor() : this("홍길동", DataClass()) {
 
     }
 
