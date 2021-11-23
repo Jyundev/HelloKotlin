@@ -2,7 +2,6 @@
 
 
 ///Basic Types
-
 fun main(array: Array<String>) {
 
     string()
