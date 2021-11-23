@@ -1,8 +1,8 @@
-package CoroutineBasic
+package coroutine_basic
 
 import kotlinx.coroutines.*
 
-fun log(msg: String) = CoroutineBasic.println("[${Thread.currentThread().name}] $msg")
+fun log(msg: String) = coroutine_basic.println("[${Thread.currentThread().name}] $msg")
 
 
 fun main() =
