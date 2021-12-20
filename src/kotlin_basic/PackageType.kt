@@ -2,6 +2,7 @@ fun main() {
 
    for(i in fooLabel3())
        println("$i")
+
 }
 
 //label로 return 과 jump 가능

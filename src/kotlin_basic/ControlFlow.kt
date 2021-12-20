@@ -53,7 +53,7 @@ fun switch(x: Int) {
 fun collection() {
     var collection = listOf(1, 2, 3, 4)
     //collection.iterator()
-    for (item in collection) // for문은 iterator을 반환하는 갣체만 들어올 수 있다.
+    for (item in collection) // for문은 iterator을 반환하는 객체만 들어올 수 있다.
         print("$item ")
 
     println()

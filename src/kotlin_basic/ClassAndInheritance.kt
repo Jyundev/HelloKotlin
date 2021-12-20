@@ -9,7 +9,7 @@ fun main() {
 
 }
 
-//기본생성자 : constructor 생략가능
+//기본생성자 :- constructor 생략가능
 class Person constructor(firstName: String) {
     var fullname: String = firstName //프로퍼티 get set 사용가능
 

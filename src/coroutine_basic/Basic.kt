@@ -4,7 +4,7 @@ import kotlinx.coroutines.*
 
 fun main() {
 
-    waitFunc()
+    example2()
 }
 
 fun example1() {
